@@ -2,7 +2,7 @@
 <html lang="$lang$">
   <head>
     <meta charset="UTF-8" />
-    <title>CV – Yuliam Rivera</title>
+    <title>$if(title)$$title$$else$CV – Yuliam Rivera$endif$</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800&display=swap');
 
@@ -11,7 +11,7 @@
   ===================== */
       @page {
         size: A4;
-        margin: 10mm;
+        margin: 11mm;
       }
 
       :root {
@@ -43,8 +43,8 @@
       body {
         font-family: 'Source Sans 3', -apple-system,
           BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        font-size: 11.2px;
-        line-height: 1.42;
+        font-size: 12px;
+        line-height: 1.46;
         color: var(--text);
         background: var(--bg);
         -webkit-font-smoothing: antialiased;
@@ -56,7 +56,7 @@
         width: 210mm;
         min-height: 297mm;
         margin: 12mm auto;
-        padding: 13mm 14mm 12mm 15mm;
+        padding: 13mm 15mm 13mm 16mm;
         background: var(--paper);
         box-shadow: 0 22px 60px var(--shadow);
         border-radius: 6px;
@@ -131,7 +131,7 @@
 
       .cv-content h1:first-of-type {
         max-width: 140mm;
-        font-size: 25px;
+        font-size: 26px;
         font-weight: 800;
         letter-spacing: 0;
         line-height: 1.05;
@@ -141,16 +141,25 @@
 
       .cv-content > p:first-of-type {
         max-width: 142mm;
-        font-size: 11.5px;
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--accent-strong);
+        line-height: 1.28;
+        margin: 0 0 5px 0;
+      }
+
+      .cv-content > p:nth-of-type(2) {
+        max-width: 142mm;
+        font-size: 11.3px;
         color: var(--muted);
-        line-height: 1.35;
-        margin: 0 0 10px 0;
-        padding-bottom: 8px;
+        line-height: 1.32;
+        margin: 0 0 12px 0;
+        padding-bottom: 9px;
         border-bottom: 1px solid var(--line);
       }
 
       .cv-content > h2:first-of-type {
-        margin-top: 11px;
+        margin-top: 13px;
       }
 
       @media screen and (max-width: 580px) {
@@ -169,7 +178,8 @@
         }
 
         .cv-content h1:first-of-type,
-        .cv-content > p:first-of-type {
+        .cv-content > p:first-of-type,
+        .cv-content > p:nth-of-type(2) {
           max-width: none;
         }
       }
@@ -178,25 +188,25 @@
       SECTIONS
    ===================== */
       h2 {
-        font-size: 10px;
+        font-size: 10.8px;
         font-weight: 800;
         text-transform: uppercase;
-        letter-spacing: 0.9px;
-        margin: 14px 0 7px 0;
-        padding: 0 0 4px 0;
+        letter-spacing: 0.8px;
+        margin: 16px 0 8px 0;
+        padding: 0 0 5px 0;
         border-bottom: 1px solid var(--line);
         color: var(--accent-strong);
       }
 
       h3 {
-        font-size: 12.2px;
+        font-size: 13.2px;
         font-weight: 800;
-        margin: 0 0 2px 0;
+        margin: 0 0 3px 0;
         color: var(--ink);
       }
 
       .job-meta {
-        font-size: 11px;
+        font-size: 11.6px;
         color: var(--subtle);
         margin-bottom: 10px;
         display: flex;
@@ -214,9 +224,9 @@
       }
 
       p {
-        margin: 0 0 5px 0;
-        font-size: 11.2px;
-        line-height: 1.42;
+        margin: 0 0 6px 0;
+        font-size: 12px;
+        line-height: 1.46;
       }
 
       strong {
@@ -228,15 +238,15 @@
       LISTS & ITEMS
    ===================== */
       ul {
-        margin: 4px 0 8px 0;
-        padding-left: 15px;
+        margin: 5px 0 10px 0;
+        padding-left: 16px;
       }
 
       li {
-        margin-bottom: 3px;
+        margin-bottom: 4px;
         padding-left: 2px;
-        font-size: 11px;
-        line-height: 1.35;
+        font-size: 11.8px;
+        line-height: 1.4;
       }
 
       li::marker {
@@ -256,7 +266,7 @@
 
       .skill-tag {
         display: inline-block;
-        font-size: 10.5px;
+        font-size: 11px;
         font-weight: 500;
         padding: 4px 10px;
         background: var(--bg);
@@ -300,7 +310,7 @@
       .cv-footer {
         margin-top: 24px;
         padding-top: 12px;
-        font-size: 10px;
+        font-size: 10.5px;
         color: var(--subtle);
         border-top: 1px dashed var(--line);
         text-align: center;
@@ -322,9 +332,11 @@
 
   <body>
     <main class="cv">
+      $if(include_photo)$
       <div class="cv-header-photo">
         <img src="../images/picture_profile.png" alt="Foto de perfil" />
       </div>
+      $endif$
       <article class="cv-content">$body$</article>
     </main>
   </body>

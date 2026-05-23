@@ -6,10 +6,10 @@ Mejorar el sistema actual basado en `Markdown + Pandoc + template HTML` sin migr
 
 ## Estado Global
 
-- Estado actual: `No iniciado`
+- Estado actual: `En progreso`
 - Enfoque: `Incremental`
 - Documento de seguimiento: `docs/roadmap_cv.md`
-- Ultima actualizacion: `2026-03-29`
+- Ultima actualizacion: `2026-05-23`
 
 ## Decisiones Fijadas
 
@@ -39,6 +39,9 @@ Mejorar el sistema actual basado en `Markdown + Pandoc + template HTML` sin migr
 - [x] Corregir scripts para crear `build/` y fallar correctamente si `pandoc` falla
 - [x] Crear la carpeta `offers/`
 - [x] Actualizar el checklist para eliminar la seccion explicita de keywords ATS
+- [x] Definir enfoque narrativo para CV de analitica operativa, compras y mantenimiento
+- [x] Mejorar guia editorial, densidad de contenido y legibilidad visual del CV
+- [x] Configurar foto y footer variable por idioma/perfil
 
 ## Etapas
 
@@ -212,8 +215,9 @@ Poder consultar rapidamente que se hizo, que falta y que decisiones quedaron tom
 
 ## Proximos Pasos Inmediatos
 
-- [ ] Ejecutar la Etapa 1
-- [ ] Definir el destino definitivo de los borradores historicos
+- [ ] Revisar visualmente los HTML generados con la nueva plantilla
+- [ ] Definir si se mantiene una variante con foto y otra sin foto
+- [ ] Ejecutar la Etapa 1 para ordenar borradores fuera de `roles/es` y `roles/en`
 - [ ] Diseñar las reglas minimas del validador para la Etapa 2
 
 ## Bitacora de Avances
@@ -224,3 +228,11 @@ Poder consultar rapidamente que se hizo, que falta y que decisiones quedaron tom
 - Se definio un enfoque incremental en lugar de migracion completa.
 - Se priorizaron cinco etapas: orden del repo, validacion, PDF, estructura de datos y trazabilidad.
 - Se crea este documento como fuente viva de estado y avances.
+
+### 2026-05-23
+
+- Se agrego una guia editorial y visual para reducir densidad y mejorar lectura.
+- Se decide priorizar contenido ejecutivo, medible y alineado con analitica operativa.
+- Se actualiza el checklist para incluir enfoque del rol, legibilidad y limites de bullets.
+- Se define que las versiones en ingles/internacionales salen sin foto por defecto.
+- Se agrega soporte para footers por perfil, permitiendo omitir `OTROS DATOS` en datos y mantenerlos en coordinacion.

@@ -1,4 +1,32 @@
+# Generated build outputs
 build/
 exports/
+
+# Private inputs and reference attachments
 adds/
+offers/*
+!offers/.gitkeep
+
+# Historical role drafts kept outside the active role tree
 roles/*.md
+
+# Browser/test tool artifacts
+.playwright-cli/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local environment files
+.env
+.env.*
+!.env.example

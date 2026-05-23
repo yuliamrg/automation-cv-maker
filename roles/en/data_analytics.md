@@ -1,6 +1,6 @@
 ## PROFESSIONAL PROFILE
 
-Industrial Engineer focused on data analysis, with experience building indicators, ETL processes, and Looker Studio dashboards for decision-making. Currently developing OPEX/CAPEX cost-control dashboards that reduced reporting time by 60%. Interested in Junior Data Analyst roles, remote or on-site.
+Junior Data Analyst and Industrial Engineer experienced in turning operational and financial data into dashboards, KPIs, and executive reports. Reduced reporting time by 60%, integrated data from 3 sources, and identified 15% savings opportunities in OPEX/CAPEX control. Skilled in advanced Excel, Looker Studio, Python, basic SQL, and Google Apps Script.
 
 ---
 
@@ -8,54 +8,38 @@ Industrial Engineer focused on data analysis, with experience building indicator
 
 ### Maintenance Planning Analyst
 
-**Clínica de Occidente – Cali, Colombia**
-*March 2024 – Present*
+**Clínica de Occidente - Cali, Colombia**  
+*March 2024 - Present*
 
-- Developed Looker Studio dashboards for OPEX/CAPEX cost control, reducing manual reporting time from 8h to 3h per week.
-- Built and monitored KPIs through ETL processes, automating data loading from 3 sources.
-- Analyzed operational and financial data for maintenance planning, identifying 15% in savings opportunities.
-- Automated reports using advanced Excel and Google Apps Script, eliminating repetitive tasks.
-- Provided analytical support to technical leaders for data-driven decision-making.
-- Collaborative work with administrative, technical, and financial teams.
+- Design Looker Studio dashboards for OPEX/CAPEX tracking, reducing manual reporting from 8 to 3 hours per week.
+- Build KPIs and ETL processes with operational, financial, and technical data from 3 sources.
+- Analyze costs, failures, and resource consumption to identify savings opportunities near 15%.
+- Automate reports with advanced Excel and Google Apps Script, removing repetitive consolidation work.
+- Present insights to technical, administrative, and financial leaders to support data-driven decisions.
 
 ### Refrigeration and Air Conditioning Technician
 
-**Clínica de Occidente – Cali, Colombia**
-*September 2018 – February 2024*
+**Clínica de Occidente - Cali, Colombia**  
+*September 2018 - February 2024*
 
-- Managed and analyzed technical information for critical hospital equipment.
-- Recorded, tracked, and analyzed recurring failures, reducing downtime by 20%.
-- Support for implementing BMS systems (Metasys) as a source of operational data.
+- Recorded and analyzed recurring failures in critical hospital equipment, contributing to a 20% downtime reduction.
+- Consolidated technical asset and BMS (Metasys) information as input for operational analysis.
+- Brought field experience to interpret maintenance, cost, and service-continuity data.
 
-*(Prior technical experience summarized – see LinkedIn profile for full details)*
+*(Prior technical experience summarized on LinkedIn.)*
 
 ---
 
 ## EDUCATION
 
-- **Industrial Engineering** – Politécnico Grancolombiano *(completed in March 2026)*
-- **Software Analysis and Development Technologist** – SENA *(Practicum)*
-- **Diploma in Data Analysis and Data Storytelling** – Politécnico Grancolombiano *(completed in February 2026)*
+- **Industrial Engineering** - Politécnico Grancolombiano *(completed in March 2026)*
+- **Software Analysis and Development Technologist** - SENA *(practicum)*
+- **Diploma in Data Analysis and Data Storytelling** - Politécnico Grancolombiano *(completed in February 2026)*
 
 ---
 
 ## TECHNICAL SKILLS
 
-- Data analysis
-- Python (basic-intermediate)
-- SQL (in training)
-- Microsoft Excel (advanced)
-- Looker Studio
-- ETL processes (basic)
-- Data visualization
-- KPIs and operational metrics
-
----
-
-## TOOLS
-
-- Excel
-- Python
-- Looker Studio
-- Google Apps Script
-- AppSheet
+- **Visualization and reporting:** Looker Studio, basic Power BI, advanced Excel, executive dashboards.
+- **Data and automation:** intermediate Python, basic SQL, Google Apps Script, ETL processes.
+- **Business analysis:** KPIs, OPEX/CAPEX, operational costs, data storytelling, continuous improvement.
